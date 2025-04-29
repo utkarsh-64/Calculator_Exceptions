@@ -50,4 +50,22 @@ public class Calculator {
         return a / b;
     }
 
+    /**
+     * Computes the square of a number.
+     * @param a The number to be squared.
+     * @return The square of a.
+     */
+    public static double square(double a) {
+        return a * a;
+    }
+
+    /**
+     * Computes the cube of a number.
+     * @param a The number to be cubed.
+     * @return The cube of a.
+     */
+    public static double cube(double a) {
+        return a * a * a;
+    }
+
 }
