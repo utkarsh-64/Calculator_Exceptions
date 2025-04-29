@@ -68,4 +68,16 @@ public class Calculator {
         return a * a * a;
     }
 
+    /**
+     * Computes the square root of a non-negative number.
+     * @param a The number.
+     * @return The square root of a.
+     * @throws IllegalArgumentException If a is negative.
+     */
+    public static double squareRoot(double a) {
+        if (a < 0) {
+            throw new IllegalArgumentException("Square root of negative numbers is not real.");
+        }
+        return Math.sqrt(a);
+    }
 }
