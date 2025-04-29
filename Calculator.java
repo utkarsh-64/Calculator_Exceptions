@@ -35,4 +35,19 @@ public class Calculator {
     public static double multiply(double a, double b) {
         return a * b;
     }
+
+    /**
+     * Divides the first number by the second.
+     * @param a The dividend.
+     * @param b The divisor.
+     * @return The result of a divided by b.
+     * @throws ArithmeticException If the divisor is zero.
+     */
+    public static double divide(double a, double b) {
+        if (b == 0) {
+            throw new ArithmeticException("Division by zero is not allowed.");
+        }
+        return a / b;
+    }
+
 }
